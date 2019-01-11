@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 // import Card from './Card/index.js';
-import Forecast from './Forecast/index.js';
+import Forecasts from './Forecasts.js';
 
 class App extends Component {
   render() {
@@ -12,7 +12,7 @@ class App extends Component {
         </header>
         <div>
           <br/>
-          <Forecast />
+          <Forecasts />
         </div>
       </div>
     );
